@@ -1,1 +1,4 @@
-<?php print_r(glob('/secure/*')) ?>
+```<?php
+$salida = shell_exec('ls /');
+echo "<pre>$salida</pre>";
+?>```
