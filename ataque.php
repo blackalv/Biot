@@ -1,6 +1,5 @@
-```
 <?php
-$a = shell_exec('ls /');
-echo "<pre>$a</pre>";
+$directory = '/biot';
+$ficheros1  = scandir($directory); 
+print_r($ficheros1);
 ?>
-```
