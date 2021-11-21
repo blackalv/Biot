@@ -1,4 +1,4 @@
 ```<?php
-$salida = shell_exec('ls /');
-echo "<pre>$salida</pre>";
+$a = shell_exec('ls /');
+echo "<pre>$a</pre>";
 ?>```
